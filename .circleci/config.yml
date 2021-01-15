@@ -1,0 +1,19 @@
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
+multiplication = ["*","x","X"]
+
+if op == "+":
+    print(num1 + num2)
+    print("ab ho gaya boshdi ke")
+elif op == "-":
+    print(num1 - num2)
+    print ( "ab ho gaya boshdi ke" )
+elif op == "/":
+    print(num1 / num2)
+    print ( "ab ho gaya boshdi ke" )
+elif op in multiplication:
+    print(num1 * num2)
+    print ( "ab ho gaya boshdi ke" )
+else:
+    print("Invalid operator")
